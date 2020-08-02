@@ -7,13 +7,13 @@ The Report System allows players to submit reports on other players, which are s
 
 Commands:
 
-> /report <name> <reason> - Submits a report for a player, saving it in the config and notifying all players with the permission report.recievenotis
+> /report <name> <reason> - Submits a report for a player, saving it in the config and notifying all players with the permission report.recievenotis\n
   Permission: report.send
   
-> /reports <name> - Gets the reports submitted for that player, returns a timestamp, reason and the player who originally sent the report.
+> /reports <name> - Gets the reports submitted for that player, returns a timestamp, reason and the player who originally sent the report\n
   Permission: report.getreports
   
-> /clearreports <name> - Clears the reports for the player specified
+> /clearreports <name> - Clears the reports for the player specified\n
   Permission: report.clearreports
   
 Permissions:
