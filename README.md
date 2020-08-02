@@ -8,16 +8,16 @@ The Report System allows players to submit reports on other players, which are s
 Commands:
 
 > /report <name> <reason> - Submits a report for a player, saving it in the config and notifying all players with the permission report.recievenotis
+  
   Permission: report.send
-  Default: True
   
 > /reports <name> - Gets the reports submitted for that player, returns a timestamp, reason and the player who originally sent the report.
+  
   Permission: report.getreports
-  Default: Op
   
 > /clearreports <name> - Clears the reports for the player specified
+  
   Permission: report.clearreports
-  Default: Op
   
 > Permissions:
   >  report.*:
@@ -27,15 +27,19 @@ Commands:
       report.clearreports: true
       report.recievenotis: true
       report.getreports: true
+      
   > report.send:
       description: Allows the player to report
       default: true
+      
   > report.clearreports:
       description: Allows the player to clear the reports for a user
       default: op
+      
   > report.getreports:
       description: Allows the player to recieve the reports of a player.
-      default: 
+      default: op
+      
   > report.recievenotis:
       description: Gives the player a notification when a player is reported
       default: op
@@ -50,9 +54,11 @@ The AuraBot has no name and default skin.
 Commands:
 
 > /aurabot <name> - Summons an AuraBot that is assigned to the player, the AuraBot will teleport around the player for 5 seconds. If a player hits the AuraBot too many times then a message will be sent to all players with the permission aurabot.recievenotis (on default the max amount of hits is 35, this can be changed in the config)
+  
   Permission: aurabot.summon
   
 > /aurabot threshold <int> - Sets the maximum amount of hits a player can get on the AuraBot before all players with the permission aurabot.recievenotis are notified.
+  
   Permission: aurabot.managethreshold
   
 Permissions:
