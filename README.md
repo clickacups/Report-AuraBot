@@ -50,10 +50,10 @@ The AuraBot has no name and default skin.
 
 <b>Commands</b>:
 
-> <b>/aurabot <name></b> - Summons an AuraBot that is assigned to the player, the AuraBot will teleport around the player for 5 seconds. If a player hits the AuraBot too many times then a message will be sent to all players with the permission aurabot.recievenotis (on default the max amount of hits is 35, this can be changed in the config)<br>
+> <b>/aurabot [name]</b> - Summons an AuraBot that is assigned to the player, the AuraBot will teleport around the player for 5 seconds. If a player hits the AuraBot too many times then a message will be sent to all players with the permission aurabot.recievenotis (on default the max amount of hits is 35, this can be changed in the config)<br>
   <b>Permission</b>: aurabot.summon
   
-> <b>/aurabot threshold <int></b> - Sets the maximum amount of hits a player can get on the AuraBot before all players with the permission aurabot.recievenotis are notified.<br>
+> <b>/aurabot threshold [int]</b> - Sets the maximum amount of hits a player can get on the AuraBot before all players with the permission aurabot.recievenotis are notified.<br>
   <b>Permission</b>: aurabot.managethreshold
   
 <b>Permissions</b>:
