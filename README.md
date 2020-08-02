@@ -18,7 +18,7 @@ Commands:
   
 Permissions:
   >  report.*:
-    description: Gives access to all report commands, should only be given to administators
+    - Gives access to all report commands, should only be given to administators
     children:
       report.send: true
       report.clearreports: true
@@ -26,19 +26,19 @@ Permissions:
       report.getreports: true
       
   > report.send:
-      description: Allows the player to report
+      - Allows the player to report
       default: true
       
   > report.clearreports:
-      description: Allows the player to clear the reports for a user
+      - Allows the player to clear the reports for a user
       default: op
       
   > report.getreports:
-      description: Allows the player to recieve the reports of a player.
+      - Allows the player to recieve the reports of a player.
       default: op
       
   > report.recievenotis:
-      description: Gives the player a notification when a player is reported
+      - Gives the player a notification when a player is reported
       default: op
       
 When the plugin is first ran, the config will automatically set an AuraBot Report value (default 3), this is how many reports a player can get before they summon an AuraBot.
