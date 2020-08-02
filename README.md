@@ -20,23 +20,23 @@ Commands:
   Default: Op
   
 > Permissions:
-  -  report.*:
+  >  report.*:
     description: Gives access to all report commands, should only be given to administators
     children:
       report.send: true
       report.clearreports: true
       report.recievenotis: true
       report.getreports: true
-  - report.send:
+  > report.send:
       description: Allows the player to report
       default: true
-  - report.clearreports:
+  > report.clearreports:
       description: Allows the player to clear the reports for a user
       default: op
-  - report.getreports:
+  > report.getreports:
       description: Allows the player to recieve the reports of a player.
       default: 
-  - report.recievenotis:
+  > report.recievenotis:
       description: Gives the player a notification when a player is reported
       default: op
       
@@ -57,20 +57,20 @@ Commands:
   
 Permissions:
 
-  - aurabot.*:
+  > aurabot.*:
     description: Gives access to all aurabot commands, should only be given to administators
     children:
       aurabot.summon: true
       aurabot.recievenotis: true
       aurabot.managethreshold: true
 
-  - aurabot.summon:
+  > aurabot.summon:
       description: Allows the player to summon an aurabot to check on another player
       default: op
-  - aurabot.recievenotis:
+  > aurabot.recievenotis:
       description: Allows the player to recieve notifications on players that have broken the aurabot threshold
       default: op
-  - aurabot.managethreshold:
+  > aurabot.managethreshold:
       description: Allows the player to change the threshold of the aurabot via /aurabot threshold <int>
       default: op
   
