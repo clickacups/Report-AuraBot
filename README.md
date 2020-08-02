@@ -68,9 +68,11 @@ The AuraBot has no name and default skin.
   > <b>aurabot.summon</b> -
       Allows the player to summon an aurabot to check on another player -
       <b>default</b>: op
+      
   > <b>aurabot.recievenotis</b> -
       Allows the player to recieve notifications on players that have broken the aurabot threshold -
   <b>default</b>: op
+  
   > <b>aurabot.managethreshold</b> -
       Allows the player to change the threshold of the aurabot via /aurabot threshold <int> -
   <b>default</b>: op
